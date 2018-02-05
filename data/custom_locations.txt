@@ -1,0 +1,1365 @@
+		; custom locations , add new locations at the bottom
+
+;;; Old placeholder locations
+custom_location		Scottish Glen
+{
+	location		99	176
+	image			data/menu/battlefield_pics/scottish_glen.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+
+custom_location		Spanish Plain
+{
+	location		84	88
+	image			data/menu/battlefield_pics/spanish_plains.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		Tuscany
+{
+	location		161	85
+	image			data/menu/battlefield_pics/tuscany.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		Black Forest
+{
+	location		129	140
+	image			data/menu/battlefield_pics/black_forest.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		Swiss Alp
+{
+	location		129     121		;136	122
+	image			data/menu/battlefield_pics/swiss_alps.tga
+	sett_locked		no
+	climate			alpine
+	summer			no
+}
+custom_location		Morocco
+{
+	location		70	59
+	image			data/menu/battlefield_pics/morocco.tga
+	sett_locked		no
+	climate			rocky_Desert
+	summer			yes
+}
+custom_location		Saharan Sands
+{
+	location		77	29
+	image			data/menu/battlefield_pics/saharan_sands.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			yes
+}
+custom_location		The Sea of Grass
+{
+	location		265	154
+	image			data/menu/battlefield_pics/sea_of_grass.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		Lebanon
+{
+	location		253	54  ;258 68
+	image			data/menu/battlefield_pics/lebanon.tga
+	sett_locked		no
+	climate			rocky_Desert
+	summer			yes
+}
+custom_location		Eifel Mountains
+{
+	location		129	132
+	image			data/menu/battlefield_pics/eifel_mountains.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		Carpathia
+{
+	location		193	107
+	image			data/menu/battlefield_pics/carpathia.tga
+	sett_locked		no
+	climate			alpine
+	summer			no
+}
+custom_location		Palm Beach
+{
+	location		203	39
+	image			data/menu/battlefield_pics/palm_beach.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			yes
+}
+custom_location		Mayan Jungle
+{
+	location		6	137
+	image			data/menu/battlefield_pics/mayan_jungle.tga
+	sett_locked		no
+	climate			tropical
+	summer			yes
+}
+custom_location		Valley of Mexico
+{
+	location		4	135
+	image			data/menu/battlefield_pics/valley_of_mexico.tga
+	sett_locked		no
+	climate			tropical
+	summer			yes
+}
+custom_location		Highlands
+{
+	location		105	167
+	image			data/menu/battlefield_pics/highlands.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		Andalusia
+{
+	location		85	83
+	image			data/menu/battlefield_pics/andalusia.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		Lombardy
+{
+	location		136	110
+	image			data/menu/battlefield_pics/lombardy.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		River Seine
+{
+	location		116	114
+	image			data/menu/battlefield_pics/River_seine.tga
+	sett_locked		yes
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		River Jordan
+{
+	location		252	75
+	image			data/menu/battlefield_pics/River_jordan.tga
+	sett_locked		yes
+	climate			rocky_Desert
+	summer			yes
+}
+custom_location		River Po
+{
+	location		131	121
+	image			data/menu/battlefield_pics/River_po.tga
+	sett_locked		yes
+	climate			mediterranean
+	summer			no
+}
+custom_location		[Retrofit] Plain Arena
+{
+	location		294	0
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Alpine Flat 01
+{
+	location		112	106
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			alpine
+	summer			no
+}
+custom_location		[Retrofit] Alpine Flat 02
+{
+	location		186	187
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			alpine
+	summer			no
+}
+custom_location		[Retrofit] Alpine Flat 03
+{
+	location		190	188
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			alpine
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 01
+{
+	location		100	161
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 02
+	location		100	162
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 03
+{
+	location		100	163
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 04
+{
+	location		100	164
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 05
+{
+	location		100	166
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 06
+{
+	location		100	170
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 07
+{
+	location		100	171
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			highland
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 08
+{
+	location		70	73
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		[Retrofit] Highland Hills 09
+{
+	location		70	74
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		[Retrofit] Mediterranean Flat 01
+{
+	location		169	81
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		[Retrofit] Mediterranean Flat 02
+{
+	location		214	92
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		[Retrofit] Mediterranean Flat 03
+{
+	location		145	105
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		[Retrofit] Mediterranean Flat 04 
+{
+   	location     		66   78
+  	image         		data/menu/battlefield_pics/retrofit.tga
+   	sett_locked     	no
+   	climate         	mediterranean
+   	summer        		no
+}
+custom_location     	[Retrofit] Mediterranean Flat 05
+{
+   	location      		99   114
+   	image         		data/menu/battlefield_pics/retrofit.tga
+   	sett_locked      	no
+   	climate         	mediterranean
+   	summer         		no
+}
+custom_location		[Retrofit] Mediterranean River 01
+{
+	location		60	80
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			mediterranean
+	summer			no
+}
+custom_location		[Retrofit] Rocky Desert Flat 01
+{
+	location		69	39
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			rocky_Desert
+	summer			no
+}
+custom_location		[Retrofit] Rocky Desert Hills 01
+{
+	location		292	85
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			rocky_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 01
+{
+	location		281	56
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 02
+{
+	location		236	7
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 03
+{
+	location		241	10
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 04
+{
+	location		239	23
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 05
+{
+	location		219	20
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 06
+{
+	location		241	9
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 07
+{
+	location		237	6
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 08
+{
+	location		294	49
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 09
+{
+	location		271	58
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 10
+{
+	location		134	44
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 11
+{
+	location		135	43
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 12
+{
+	location		222	22
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 13
+{
+	location		84	5
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 14
+{
+	location		72	35
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 15
+{
+	location		140	38
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 16
+{
+	location		153	31
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 17
+{
+	location		154	31
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 18
+{
+	location		155	31
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 19
+{
+	location		156	31
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 20
+{
+	location		157	31
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 21
+{
+	location		158	31
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 22
+{
+	location		159	31
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 23
+{
+	location		294	50
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 24
+{
+	location		294	51
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 25
+{
+	location		294	57
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Flat 26
+{
+	location		290	50
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location      	[Retrofit] Sandy Desert Flat 27
+{
+   	location      		119   47
+   	image         		data/menu/battlefield_pics/retrofit.tga
+   	sett_locked      	no
+   	climate         	sandy_desert
+   	summer         		no
+}
+custom_location      	[Retrofit] Sandy Desert Flat 28 
+{
+   	location      		241   12
+   	image         		data/menu/battlefield_pics/retrofit.tga
+   	sett_locked      	no
+   	climate         	sandy_desert
+   	summer         		no
+}
+custom_location      	[Retrofit] Sandy Desert Flat 29
+{
+   	location      		154   33
+   	image         		data/menu/battlefield_pics/retrofit.tga
+   	sett_locked      	no
+   	climate         	sandy_desert
+   	summer         		no
+}
+custom_location		[Retrofit] Sandy Desert Hills 01
+{
+	location		69	38
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Sandy Desert Hills 02
+{
+	location		68	38
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			sandy_Desert
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 01
+{
+	location		234	40
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 02
+{
+	location		232	40
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 03
+{
+	location		64	62
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 04
+{
+	location		53	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 05
+{
+	location		54	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 06
+{
+	location		55	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 07
+{
+	location		56	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 08
+{
+	location		57	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 09
+{
+	location		58	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 10
+{
+	location		59	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 11
+{
+	location		60	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Semiarid Flat 12
+{
+	location		61	60
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			semi_arid
+	summer			no
+}
+custom_location		[Retrofit] Steppe Flat 01
+{
+	location		205	156
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Flat 02
+{
+	location		227	121
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Flat 03
+{
+	location		227	122
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Flat 04
+{
+	location		226	124
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Flat 05
+{
+	location		205	149
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Flat 06
+{
+	location		240	122
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Flat 07
+{
+	location		246	130
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Flat 08
+{
+	location		247	130
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Hills 01
+{
+	location		201	137
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Hills 02
+{
+	location		248	136
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Hills 03
+{
+	location		215	146
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Hills 04
+{
+	location		233	154
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Steppe Hills 05
+{
+	location		184	141
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			steppe
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 01
+{
+	location		100	114
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 02
+{
+	location		129	150
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location 	[Retrofit] Temperate Flat 03
+{
+	location		106   105
+	image 			data/menu/battlefield_pics/retrofit.tga
+	sett_locked 		no
+	climate 		temperate_deciduous_forest
+	summer 			no
+}
+custom_location		[Retrofit] Temperate Flat 04
+{
+	location		106	155
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 05
+{
+	location		107	156
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 06
+{
+	location		120	143
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 07
+{
+	location		205	149
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 08
+{
+	location		21	176
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 09
+{
+	location		101	116
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 10
+{
+	location		98	111
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 11
+{
+	location		99	115
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 12
+{
+	location		99	114
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 13
+{
+	location		99	112
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 14
+{
+	location		99	111
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 15
+{
+	location		99	110
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 16
+{
+	location		98	110
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 17
+{
+	location		97	121
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 18
+{
+	location		97	120
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 19
+{
+	location		97	119
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 20
+{
+	location		97	118
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 21
+{
+	location		103	120
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 22
+{
+	location		103	121
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 23
+{
+	location		102	153
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 24
+{
+	location		107	154
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 25
+{
+	location		97	109
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 26
+{
+	location		98	108
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 27
+{
+	location		101	126
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 28
+{
+	location		96	126
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 29
+{
+	location		96	119
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 30
+{
+	location		87	164
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 31
+{
+	location		100	118
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 32
+{
+	location		101	116
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 33
+{
+	location		213	162
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 34
+{
+	location		213	163
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 35
+{
+	location		213	164
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Flat 36
+{
+	location		213	165
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Hills 01
+{
+	location		110	112
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Hills 02
+{
+	location		106	128
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Hills 03
+{
+	location		101	154
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate River 01
+{
+	location		100	113
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_deciduous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 01
+{
+	location		141	150
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 02
+{
+	location		154	169
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 03
+{
+	location		147	155
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 04
+{
+	location		167	155
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 05
+{
+	location		186	176
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 06
+{
+	location		156	174
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 07
+{
+	location		184	171
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 08
+{
+	location		202	176
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 09
+{
+	location		201	180
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 10
+{
+	location		162	143
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 11
+{
+	location		183	156
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 12
+{
+	location		152	147
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 13
+{
+	location		178	156
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood 14
+{
+	location		160	153
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 01
+{
+	location		186	165
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 02
+{
+	location		168	148
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 03
+{
+	location		235	175
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 04
+{
+	location		186	164
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 05
+{
+	location		186	163
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 06
+{
+	location		186	162
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 07
+{
+	location		190	179
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 08
+{
+	location		189	177
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 09
+{
+	location		158	179
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 10
+{
+	location		152	179
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 11
+{
+	location		153	177
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Temperate Wood Hills 12
+{
+	location		162	117
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			temperate_coniferous_forest
+	summer			no
+}
+custom_location		[Retrofit] Tropical Wood 01
+{
+	location		2	54
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			tropical
+	summer			no
+}
+custom_location		[Retrofit] Tropical Wood 02
+{
+	location		4	117
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			tropical
+	summer			no
+}
+custom_location		[Retrofit] Tropical Wood 03
+{
+	location		9	126
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			tropical
+	summer			no
+}
+custom_location		[Retrofit] Tropical Wood 04
+{
+	location		2	116
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			tropical
+	summer			no
+}
+custom_location		[Retrofit] Tropical Wood 05
+{
+	location		0	138
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			tropical
+	summer			no
+}
+custom_location		[Retrofit] Tropical Wood 06
+{
+	location		5	116
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			tropical
+	summer			no
+}
+custom_location		[Retrofit] Tropical Wood 07
+{
+	location		5	117
+	image			data/menu/battlefield_pics/retrofit.tga
+	sett_locked		no
+	climate			tropical
+	summer			no
+}
+
+
