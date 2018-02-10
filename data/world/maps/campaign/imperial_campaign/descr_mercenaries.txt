@@ -59,12 +59,12 @@
 ;RATE_L replenish 0.01 - 0.06 Knights			avg 0.035
 
 
-pool America
-	regions Caribbean_Isles North_America
+pool Island
+	regions Island
 	unit Native Mercenaries				exp 0 cost 300 replenish 0.06 - 0.18 max 4 initial 4
 
-pool Scotland_Ireland
-	regions Dublin_Province Edinburgh_Province Inverness_Province			
+pool Ireland
+	regions Ireland		
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
 	unit merc cog,				exp 0 cost 1000 replenish 0.02 - 0.10 max 1 initial 1
 	unit Mercenary Crossbowmen	exp 0 cost 860 replenish 0.04 - 0.13 max 2 initial 1
@@ -74,8 +74,8 @@ pool Scotland_Ireland
 	unit Pilgrims				exp 0 cost 35 replenish 0.18 - 0.5 max 4 initial 1 religions { catholic } crusading
 	unit Crusader Sergeants		exp 0 cost 110 replenish 0.15 - 0.35 max 2 initial 1  end_year 1300 religions { catholic } crusading
 
-pool England_Wales
-	regions	London_Province Nottingham_Province York_Province Caernarvon_Province
+pool North_Britain
+	regions	York_Province Northumbria Mercia
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 2 initial 1 religions { catholic } crusading
 	unit merc cog,				exp 0 cost 1000 replenish 0.03 - 0.15 max 2 initial 1
 	unit Mercenary Crossbowmen	exp 0 cost 860 replenish 0.04 - 0.13 max 2 initial 1 end_year 1350
@@ -87,8 +87,8 @@ pool England_Wales
 	unit Welsh Spearmen Mercs	exp 0 cost 470 replenish 0.06 - 0.18 max 3 initial 2 end_year 1450
 	unit Mercenary Ribault		exp 0 cost 600 replenish 0.02 - 0.04 max 1 initial 0  events { gunpowder_discovered }
 
-pool Scandinavia
-	regions Oslo_Province Stockholm_Province Helsinki_Province Arhus_Province
+pool South_Britain
+	regions Wessex Repton_Province London_Province
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 2 initial 1 religions { catholic } crusading
 	unit merc cog,				exp 0 cost 1000 replenish 0.03 - 0.15 max 2 initial 1
 	unit Mercenary Crossbowmen	exp 0 cost 860 replenish 0.04 - 0.13 max 2 initial 1 end_year 1250
@@ -101,8 +101,8 @@ pool Scandinavia
 	unit Mercenary Ribault		exp 0 cost 600 replenish 0.02 - 0.04 max 1 initial 0  events { gunpowder_discovered }
 
 
-pool Russia
-	regions Moscow_Province Smolensk_Province Novgorod_Province 
+pool Norway
+	regions Vestfold_Province Rogaland_Province Bergen_Province Trondheim_Province
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
 	unit merc cog,					exp 0 cost 1000 replenish 0.02 - 0.10 max 1 initial 1
 	unit Mercenary German Knights	exp 0 cost 950 replenish 0.01 - 0.06 max 1 initial 0 start_year 1300 end_year 1500 religions { catholic orthodox }
@@ -113,8 +113,8 @@ pool Russia
 	unit Mercenary Ribault		exp 0 cost 600 replenish 0.04 - 0.08 max 2 initial 0  events { gunpowder_discovered }
 	unit Mercenary Rocket Launcher	exp 0 cost 1650 replenish 0.03 - 0.06 max 2 initial 0  events { gunpowder_discovered mongols_invasion_warn }
 
-pool Netherlands
-	regions Antwerp_Province Bruges_Province
+pool Sweden
+	regions West_Geatland East_Geatland Kattegat_Province Finnmark
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 2 initial 1 religions { catholic } crusading
 	unit merc cog,			exp 0 cost 1000 replenish 0.03 - 0.15 max 2 initial 1
 	unit Mercenary Frankish Knights		exp 1 cost 1080 replenish 0.01 - 0.06 max 1 initial 0 end_year 1300 religions { catholic orthodox }
@@ -128,8 +128,8 @@ pool Netherlands
 	unit Crusader Sergeants		exp 0 cost 110 replenish 0.15 - 0.35 max 4 initial 1  end_year 1300 religions { catholic } crusading
 
 
-pool Northern_Germany
-	regions Stettin_Province Hamburg_Province Frankfurt_Province Magdeburg_Province Breslau_Province
+pool Denmark
+	regions North_Denmark South_Denmark
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
 	unit merc cog,			exp 0 cost 1000 replenish 0.02 - 0.10 max 1 initial 1
 	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.01 - 0.06 max 1 initial 0 end_year 1300 religions { catholic orthodox }
@@ -143,8 +143,8 @@ pool Northern_Germany
 	unit Crusader Knights		exp 0 cost 220 replenish 0.15 - 0.35 max 4 initial 1  end_year 1300 religions { catholic } crusading
 	unit Crusader Sergeants		exp 0 cost 110 replenish 0.15 - 0.35 max 4 initial 1  end_year 1300 religions { catholic } crusading
 
-pool Southern_Germany
-	regions Innsbruck_Province Prague_Province Vienna_Province Nuremburg_Province Hohenstauffen_Province
+pool East_Rebel
+	regions East_Rebel
 	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.01 - 0.06 max 1 initial 0 end_year 1300 religions { catholic orthodox }
 	unit Mercenary German Knights	exp 0 cost 950 replenish 0.01 - 0.06 max 1 initial 0 start_year 1300 end_year 1500 religions { catholic orthodox }
 	unit Landschneckt Pikemen		exp 0 cost 530 replenish 0.08 - 0.25 max 4 initial 0 start_year 1470 religions { catholic orthodox }
@@ -158,8 +158,8 @@ pool Southern_Germany
 	unit Crusader Sergeants		exp 0 cost 110 replenish 0.15 - 0.35 max 4 initial 1  end_year 1300 religions { catholic } crusading
 	unit Mercenary Ribault		exp 0 cost 600 replenish 0.04 - 0.08 max 2 initial 0  events { gunpowder_discovered }
 
-pool Poland
-	regions Cracow_Province Vilnius_Province Thorn_Province Halych_Province Riga_Province
+pool West_Rebel
+	regions West_Rebel
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
 	unit merc cog,			exp 0 cost 1000 replenish 0.02 - 0.10 max 1 initial 1
 	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.01 - 0.06 max 1 initial 0 end_year 1300 religions { catholic orthodox }
@@ -171,19 +171,14 @@ pool Poland
 	unit Flagellants			exp 0 cost 90 replenish 0.18 - 0.5 max 5 initial 1 start_year 1260 end_year 1370 religions { catholic } crusading
 	unit Crusader Knights		exp 0 cost 220 replenish 0.12 - 0.28 max 3 initial 1  end_year 1300 religions { catholic } crusading
 
-pool Steppes
-	regions Volga-Bulgar_Province Sarkel_Province Kiev_Province Caffa_Province Ryazan_Province
+pool Sicily
+	regions Sicilia_Rebel
 	unit Cuman Horse Archers	exp 0 cost 620 replenish 0.04 - 0.13 max 2 initial 1
 	unit Alan Light Cavalry		exp 0 cost 830 replenish 0.04 - 0.13 max 2 initial 1
 	unit Mercenary Rocket Launcher	exp 0 cost 1650 replenish 0.03 - 0.06 max 2 initial 0  events { gunpowder_discovered mongols_invasion_warn }
 
-pool Mexico
-	regions Tlaxcala_Province Cholula_Province Tenochtitlan_Province
-	unit Tlaxcalan Mercenaries		exp 0 cost 400 replenish 0.36 - 1.0 max 12 initial 4
-	unit Native Mercenaries			exp 0 cost 300 replenish 0.36 - 1.0 max 12 initial 4
-
 pool France
-	regions Paris_Province Angers_Province Caen_Province Bordeaux_Province Marseille_Province Rennes_Province Toulouse_Province
+	regions Normandie_One Normandie_Two France
 	unit merc cog,				exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
 	unit merc cog,				exp 0 cost 1000 replenish 0.02 - 0.10 max 1 initial 1
 	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.02 - 0.10 max 2 initial 0 end_year 1300 religions { catholic orthodox }
@@ -198,236 +193,5 @@ pool France
 	unit Crusader Knights		exp 0 cost 220 replenish 0.15 - 0.35 max 3 initial 1  end_year 1300 religions { catholic } crusading
 	unit Crusader Sergeants		exp 0 cost 110 replenish 0.15 - 0.35 max 3 initial 1  end_year 1300 religions { catholic } crusading
 	unit Mercenary Ribault		exp 0 cost 600 replenish 0.04 - 0.08 max 2 initial 0  events { gunpowder_discovered }
-
-pool Burgundy	
-	regions Dijon_Province Metz_Province Rheims_Province
-	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.01 - 0.06 max 1 initial 0 end_year 1300 religions { catholic orthodox }
-	unit Mercenary German Knights	exp 0 cost 950 replenish 0.01 - 0.06 max 1 initial 0 start_year 1300 end_year 1500 religions { catholic orthodox }
-	unit Landschneckt Pikemen		exp 0 cost 530 replenish 0.04 - 0.13 max 2 initial 0 start_year 1470 religions { catholic orthodox }
-	unit Mercenary Crossbowmen		exp 0 cost 860 replenish 0.04 - 0.13 max 2 initial 1 end_year 1300
-	unit Mercenary Pavise Crossbowmen		exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 0 start_year 1300 end_year 1480
-	unit Mercenary Arquebusiers		exp 0 cost 830 replenish 0.04 - 0.13 max 2 initial 0 start_year 1400 events { gunpowder_discovered }
-	unit Mercenary Spearmen			exp 0 cost 660 replenish 0.04 - 0.13 max 2 initial 1 end_year 1400
-	unit Free Company Longbowmen	exp 0 cost 930 replenish 0.02 - 0.07 max 1 initial 0 start_year 1338 end_year 1470
-	unit Free Company Men at Arms	exp 0 cost 710 replenish 0.02 - 0.07 max 1 initial 0 start_year 1338 end_year 1470
-	unit Pilgrims				exp 0 cost 35 replenish 0.18 - 0.5 max 4 initial 1 religions { catholic } crusading
-	unit Crusader Knights		exp 0 cost 220 replenish 0.08 - 0.17 max 2 initial 1  end_year 1300 religions { catholic } crusading
-	unit Crusader Sergeants		exp 0 cost 110 replenish 0.08 - 0.17 max 2 initial 1  end_year 1300 religions { catholic } crusading
-	unit Swiss Pikemen Mercs	exp 0 cost 690 replenish 0.04 - 0.13 max 2 initial 0 start_year 1400
-
-pool Switzerland
-	regions Bern_Province
-	unit Mercenary Crossbowmen			exp 0 cost 860 replenish 0.03 - 0.10 max 2 initial 1 end_year 1300
-	unit Swiss Pikemen Mercs			exp 0 cost 690 replenish 0.06 - 0.18 max 3 initial 0 start_year 1400
-
-pool West Balkans
-	regions Zagreb_Province Ragusa_Province Budapest_Province
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { islam } crusading
-	unit merc galley,			exp 0 cost 1040 replenish 0.02 - 0.10 max 1 initial 1
-	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.01 - 0.06 max 1 initial 0 end_year 1300 religions { catholic orthodox }
-	unit Mercenary German Knights	exp 0 cost 950 replenish 0.01 - 0.06 max 1 initial 0 start_year 1300 end_year 1500 religions { catholic orthodox }
-	unit Landschneckt Pikemen		exp 0 cost 530 replenish 0.08 - 0.25 max 4 initial 0 start_year 1470 religions { catholic orthodox }
-	unit Mercenary Crossbowmen		exp 0 cost 860 replenish 0.04 - 0.13 max 2 initial 0 end_year 1300
-	unit Mercenary Pavise Crossbowmen		exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 0 start_year 1300 end_year 1400
-	unit Mercenary Arquebusiers		exp 0 cost 830 replenish 0.04 - 0.13 max 2 initial 0 start_year 1400 events { gunpowder_discovered }
-	unit Albanian Cavalry		exp 0 cost 900 replenish 0.04 - 0.13 max 2 initial 0 start_year 1468 religions { catholic orthodox }
-	unit Serbian Knights		exp 0 cost 1320 replenish 0.04 - 0.13 max 2 initial 0 start_year 1350
-	unit Serbian Hussars		exp 0 cost 1250 replenish 0.06 - 0.18 max 3 initial 0 start_year 1440
-	unit Slav Mercenaries		exp 0 cost 350 replenish 0.08 - 0.25 max 4 initial 2 end_year 1300
-	unit Balkan Archers			exp 0 cost 290 replenish 0.04 - 0.13 max 2 initial 1
-	unit Pilgrims				exp 0 cost 35 replenish 0.18 - 0.5 max 4 initial 1 religions { catholic } crusading
-	unit Crusader Sergeants		exp 0 cost 110 replenish 0.08 - 0.17 max 2 initial 1  end_year 1300 religions { catholic } crusading
-	unit Ghazis					exp 0 cost 100 replenish 0.06 - 0.18 max 3 initial 1 religions { islam } crusading
-	unit Akinjis				exp 0 cost 620 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
-	unit Mercenary Monster Bombard	exp 0 cost 1900 replenish 0.03 - 0.06 max 2 initial 0  start_year 1400 events { gunpowder_discovered }
-
-pool East Balkans
-	regions Bucharest_Province Sofia_Province Iasi_Province Bran_Province
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { islam } crusading
-	unit merc galley,			exp 0 cost 1040 replenish 0.01 - 0.05 max 1 initial 1
-	unit Mercenary Crossbowmen	exp 0 cost 860 replenish 0.04 - 0.13 max 4 initial 0 end_year 1400
-	unit Mercenary Arquebusiers	exp 0 cost 830 replenish 0.04 - 0.13 max 4 initial 0 start_year 1400 events { gunpowder_discovered }
-	unit Serbian Knights		exp 0 cost 1320 replenish 0.04 - 0.13 max 2 initial 0 start_year 1350
-	unit Serbian Hussars		exp 0 cost 1250 replenish 0.06 - 0.18 max 3 initial 0 start_year 1440
-	unit Slav Mercenaries		exp 0 cost 350 replenish 0.08 - 0.25 max 4 initial 2 end_year 1300
-	unit Balkan Archers			exp 0 cost 290 replenish 0.08 - 0.25 max 4 initial 2
-	unit Ghazis					exp 0 cost 100 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
-	unit Akinjis				exp 0 cost 620 replenish 0.18 - 0.5 max 6 initial 1 religions { islam }
-	unit Bulgarian Brigands Mercs	exp 0 cost 660 replenish 0.06 - 0.18 max 3 initial 1
-	unit Mercenary Monster Bombard	exp 0 cost 1900 replenish 0.03 - 0.06 max 2 initial 0  start_year 1400 events { gunpowder_discovered }
-
-pool Spain
-	regions Lisbon_Province Toledo_Province Cordoba_Province Granada_Province Pamplona_Province Valencia_Province Zaragoza_Province Leon_Province
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { islam } crusading
-	unit merc galley,				exp 0 cost 1040 replenish 0.02 - 0.10 max 1 initial 1
-	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.01 - 0.06 max 1 initial 0 end_year 1300 religions { catholic orthodox }
-	unit Mercenary Knights			exp 0 cost 870 replenish 0.01 - 0.06 max 1 initial 0 start_year 1300 end_year 1500 religions { catholic orthodox }
-	unit Mercenary Crossbowmen		exp 0 cost 860 replenish 0.08 - 0.25 max 4 initial 2 end_year 1300
-	unit Mercenary Pavise Crossbowmen		exp 0 cost 930 replenish 0.08 - 0.25 max 4 initial 0 start_year 1300 end_year 1400
-	unit Mercenary Arquebusiers		exp 0 cost 830 replenish 0.08 - 0.25 max 4 initial 0 start_year 1400 events { gunpowder_discovered }
-	unit Mercenary Spearmen			exp 0 cost 660 replenish 0.08 - 0.25 max 4 initial 2 end_year 1480
-	unit Catalans			exp 0 cost 980 replenish 0.04 - 0.13 max 2 initial 0 start_year 1300 end_year 1400
-	unit Pilgrims			exp 0 cost 35 replenish 0.36 - 1.0 max 6 initial 1 religions { catholic } crusading
-	unit Crusader Knights		exp 0 cost 220 replenish 0.15 - 0.35 max 3 initial 1  end_year 1300 religions { catholic } crusading
-	unit Crusader Sergeants		exp 0 cost 110 replenish 0.15 - 0.35 max 3 initial 1  end_year 1300 religions { catholic } crusading
-	unit Ghazis					exp 0 cost 100 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
-	unit Mutatawwi'a			exp 0 cost 60 replenish 0.08 - 0.25 max 4 initial 1 religions { islam } crusading
-
-pool Northern_Italy
-	regions Bologna_Province Florence_Province Roman_Province Genoa_Province Milan_Province Venice_Province
-	unit merc galley,				exp 0 cost 200 replenish 0.36 - 1.0 max 2 initial 1 religions { catholic } crusading
-	unit merc galley,				exp 0 cost 1040 replenish 0.04 - 0.20 max 2 initial 1
-	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.02 - 0.10 max 2 initial 0 end_year 1300 religions { catholic orthodox }
-	unit Mercenary German Knights			exp 0 cost 950 replenish 0.02 - 0.10 max 2 initial 0 start_year 1300 end_year 1400 religions { catholic orthodox }
-	unit Mercenary Crossbowmen			exp 0 cost 860 replenish 0.08 - 0.25 max 4 initial 2 end_year 1300
-	unit Mercenary Pavise Crossbowmen	exp 0 cost 930 replenish 0.08 - 0.25 max 4 initial 0 start_year 1300 end_year 1480
-	unit Mercenary Arquebusiers			exp 0 cost 830 replenish 0.08 - 0.25 max 4 initial 0 start_year 1400 events { gunpowder_discovered }
-	unit Mercenary Spearmen				exp 0 cost 660 replenish 0.08 - 0.25 max 4 initial 2 end_year 1480
-	unit Free Company Longbowmen		exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 0 start_year 1338 end_year 1470
-	unit Free Company Men at Arms		exp 0 cost 710 replenish 0.04 - 0.13 max 2 initial 0 start_year 1338 end_year 1470
-	unit Condottieri			exp 0 cost 810 replenish 0.06 - 0.18 max 3 initial 0 start_year 1400 religions { catholic orthodox }
-	unit Religious Fanatics		exp 0 cost 70 replenish 0.18 - 0.5 max 6 initial 1 religions { catholic } crusading
-	unit Crusader Sergeants		exp 0 cost 110 replenish 0.15 - 0.35 max 4 initial 1  end_year 1300 religions { catholic } crusading
-	unit Great Cross			exp 0 cost 300 replenish 0.03 - 0.07 max 1 initial 0  end_year 1300 religions { catholic } crusading
-	unit Swiss Pikemen Mercs		exp 0 cost 690 replenish 0.06 - 0.18 max 3 initial 0 start_year 1400
-	unit Mercenary Monster Ribault		exp 0 cost 1370 replenish 0.03 - 0.06 max 2 initial 0  start_year 1400 events { gunpowder_discovered }
-
-pool Sicily
-	regions Palermo_Province  Naples_Province
-	unit merc galley,				exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
-	unit merc galley,			exp 0 cost 1040 replenish 0.02 - 0.10 max 1 initial 1
-	unit Mercenary Crossbowmen		exp 0 cost 860 replenish 0.04 - 0.13 max 2 initial 1 end_year 1300
-	unit Mercenary Pavise Crossbowmen		exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 0 start_year 1300 end_year 1400
-	unit Mercenary Arquebusiers		exp 0 cost 830 replenish 0.04 - 0.13 max 2 initial 0 start_year 1400 events { gunpowder_discovered }
-	unit Mercenary Knights		exp 0 cost 870 replenish 0.01 - 0.06 max 1 initial 0 start_year 1300 end_year 1500 religions { catholic orthodox }
-	unit Mercenary Spearmen		exp 0 cost 660 replenish 0.04 - 0.13 max 2 initial 1 end_year 1480
-	unit Condottieri			exp 0 cost 810 replenish 0.04 - 0.13 max 2 initial 0 start_year 1400 religions { catholic orthodox }
-	unit Catalans				exp 0 cost 980 replenish 0.04 - 0.13 max 2 initial 0 start_year 1300 end_year 1400
-	unit Religious Fanatics		exp 0 cost 70 replenish 0.18 - 0.5 max 4 initial 1 religions { catholic } crusading
-	unit Crusader Knights		exp 0 cost 220 replenish 0.15 - 0.35 max 2 initial 1  end_year 1300 religions { catholic } crusading
-	unit Great Cross				exp 0 cost 300 replenish 0.03 - 0.07 max 1 initial 0  end_year 1300 religions { catholic } crusading
-	unit Mercenary Monster Ribault	exp 0 cost 1370 replenish 0.03 - 0.06 max 2 initial 0  start_year 1400 events { gunpowder_discovered }
-
-pool Sardinia
-	regions	Cagliari_Province Ajaccio_Province		
-	unit merc galley,				exp 0 cost 1040 replenish 0.02 - 0.10 max 1 initial 1
-	unit Mercenary Crossbowmen		exp 0 cost 860 replenish 0.04 - 0.13 max 2 initial  end_year 1300
-	unit Mercenary Pavise Crossbowmen		exp 0 cost 930 replenish 0.04 - 0.13 max 2 initial 0 start_year 1300 end_year 1400
-	unit Mercenary Arquebusiers			exp 0 cost 830 replenish 0.04 - 0.13 max 2 initial 0 start_year 1400 events { gunpowder_discovered }
-	unit Catalans			exp 0 cost 980 replenish 0.04 - 0.13 max 2 initial 0 start_year 1300 end_year 1400
-
-pool Greece
-	regions Isle_of_Rhodes Isle_of_Crete Corinth_Province Durazzo_Province Thessalonica_Province Constantinople_Province
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { catholic } crusading
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { islam } crusading
-	unit merc galley,			exp 0 cost 1040 replenish 0.02 - 0.10 max 1 initial 1
-	unit Mercenary Frankish Knights		exp 0 cost 1080 replenish 0.01 - 0.06 max 1 initial 0 end_year 1300 religions { catholic orthodox }
-	unit Catalans				exp 0 cost 980 replenish 0.04 - 0.13 max 2 initial 0 start_year 1300 end_year 1400
-	unit Albanian Cavalry		exp 0 cost 900 replenish 0.04 - 0.13 max 2 initial 0 start_year 1468 religions { catholic orthodox }
-	unit Slav Mercenaries		exp 0 cost 350 replenish 0.04 - 0.13 max 2 initial 1 end_year 1300
-	unit Balkan Archers			exp 0 cost 290 replenish 0.08 - 0.25 max 4 initial 2
-	unit Ghazis					exp 0 cost 100 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
-	unit Turkomans Mercs				exp 0 cost 740 replenish 0.02 - 0.10 max 2 initial 1 religions { islam orthodox }
-	unit Mercenary Monster Bombard		exp 0 cost 1900 replenish 0.03 - 0.06 max 2 initial 0  start_year 1400 events { gunpowder_discovered }
-	
-pool Anatolia
-	regions Smyrna_Province Iconium_Province Isle_of_Cyprus Trebizond_Province Caesarea_Province Nicaea_Province
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 2 initial 1 religions { islam } crusading
-	unit merc galley,			exp 0 cost 1040 replenish 0.06 - 0.18 max 1 initial 0
-	unit Alan Light Cavalry		exp 0 cost 830 replenish 0.04 - 0.13 max 2 initial 1
-	unit Armenian Archers		exp 0 cost 560 replenish 0.08 - 0.25 max 4 initial 2
-	unit Armenian Cavalry		exp 0 cost 1080 replenish 0.04 - 0.13 max 2 initial 0
-	unit Turkopoles				exp 0 cost 720 replenish 0.06 - 0.18 max 3 initial 1 religions { catholic orthodox }
-	unit Pilgrims				exp 0 cost 35 replenish 0.18 - 0.5 max 6 initial 1 religions { catholic } crusading
-	unit Ghazis					exp 0 cost 100 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
-	unit Akinjis				exp 0 cost 620 replenish 0.18 - 0.5 max 6 initial 1 religions { islam }
-	unit Mutatawwi'a			exp 0 cost 60 replenish 0.08 - 0.25 max 4 initial 1 religions { islam } crusading
-	unit Turkomans Mercs		exp 0 cost 740 replenish 0.06 - 0.18 max 3 initial 1 religions { islam orthodox }
-
-pool Armenia
-	regions Adana_Province Tbilisi_Province Yerevan_Province
-	unit Alan Light Cavalry		exp 0 cost 830 replenish 0.04 - 0.13 max 2 initial 1
-	unit Armenian Archers		exp 0 cost 560 replenish 0.08 - 0.25 max 4 initial 1
-	unit Armenian Cavalry		exp 0 cost 1080 replenish 0.04 - 0.13 max 2 initial 0
-	unit Pilgrims				exp 0 cost 35 replenish 0.12 - 0.33 max 4 initial 1 religions { catholic } crusading
-	unit Akinjis				exp 0 cost 620 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
-	unit Turkomans Mercs			exp 0 cost 740 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
-	unit Afghan Javelinmen Mercs	exp 0 cost 920 replenish 0.06 - 0.18 max 3 initial 0 religions { islam }
-
-pool Arabia
-	regions Jedda_Province Mosul_Province Baghdad_Province
-	unit Bedouin Cavalry		exp 0 cost 630 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
-	unit Bedouin Camel Riders	exp 0 cost 920 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
-	unit Kwarizmian Cavalry		exp 0 cost 1020 replenish 0.08 - 0.25 max 4 initial 0 end_year 1400 events { mongols_invasion_warn }
-	unit Ghazis					exp 0 cost 100 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
-	unit Mutatawwi'a			exp 0 cost 60 replenish 0.08 - 0.25 max 4 initial 1 religions { islam } crusading
-	unit Turkomans Mercs		exp 0 cost 740 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
-	unit Elephants Mercs			exp 0 cost 2375 replenish 0.02 - 0.04 max 1 initial 0  events { gunpowder_discovered }
-	unit Elephant Artillery Mercs	exp 0 cost 3125 replenish 0.02 - 0.04 max 1 initial 0  events { gunpowder_discovered }
-	unit Afghan Javelinmen Mercs	exp 0 cost 920 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
-
-;================================================
-;=== Finsish Checking Below Here
-;================================================
-
-pool Brazil
-	regions Brazil
-	unit Native Mercenaries		exp 0 cost 300 replenish 0.12 - 0.33 max 4 initial 0
-
-pool North_Africa
-	regions Tripoli_Province Marrakesh_Province Algiers_Province Tunis_Province	
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 1 initial 1 religions { islam } crusading
-	unit merc galley,		exp 0 cost 1040 replenish 0.06 - 0.18 max 1 initial 1
-	unit Bedouin Cavalry	exp 0 cost 630 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
-	unit Ghazis				exp 0 cost 100 replenish 0.06 - 0.10 max 2 initial 1 religions { islam } crusading
-	unit Mutatawwi'a		exp 0 cost 60 replenish 0.08 - 0.25 max 4 initial 1 religions { islam } crusading
-	unit Turkomans Mercs	exp 0 cost 740 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
-
-pool Levant
-	regions Edessa_Province Antioch_Province Aleppo_Province Acre_Province Damascus_Province Jerusalem_Province							
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 2 initial 1 religions { islam } crusading
-	unit merc galley,		exp 0 cost 1040 replenish 0.03 - 0.15 max 2 initial 1
-	unit Bedouin Cavalry	exp 0 cost 630 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
-	unit Kwarizmian Cavalry		exp 0 cost 1020 replenish 0.08 - 0.25 max 4 initial 0 end_year 1400 events { mongols_invasion_warn }
-	unit Turkopoles			exp 0 cost 720 replenish 0.06 - 0.18 max 3 initial 1 religions { catholic orthodox }
-	unit Pilgrims			exp 0 cost 35 replenish 0.18 - 0.5 max 6 initial 1 religions { catholic } crusading
-	unit Religious Fanatics		exp 0 cost 70 replenish 0.12 - 0.33 max 4 initial 1 religions { catholic } crusading
-	unit Crusader Knights		exp 0 cost 220 replenish 0.15 - 0.35 max 4 initial 0  end_year 1300 religions { catholic } crusading
-	unit Crusader Sergeants		exp 0 cost 110 replenish 0.15 - 0.35 max 4 initial 0  end_year 1300 religions { catholic } crusading
-	unit Dismounted Crusader Knights	exp 0 cost 170 replenish 0.07 - 0.17 max 2 initial 0  end_year 1300 religions { catholic }
-	unit Ghazis					exp 0 cost 100 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
-	unit Mutatawwi'a			exp 0 cost 60 replenish 0.08 - 0.25 max 4 initial 1 religions { islam } crusading
-	unit Turkomans Mercs		exp 0 cost 740 replenish 0.06 - 0.18 max 3 initial 1 religions { islam }
-
-pool Egypt
-	regions Alexandria_Province Cairo_Province Gaza_Province				
-	unit merc galley,		exp 0 cost 200 replenish 0.36 - 1.0 max 2 initial 1 religions { islam } crusading
-	unit merc galley,			exp 0 cost 1040 replenish 0.06 - 0.18 max 1 initial 1
-	unit Bedouin Cavalry		exp 0 cost 630 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
-	unit Ghazis					exp 0 cost 100 replenish 0.18 - 0.5 max 6 initial 1 religions { islam } crusading
-	unit Mutatawwi'a			exp 0 cost 60 replenish 0.08 - 0.25 max 4 initial 1 religions { islam } crusading
-	unit Turkomans Mercs			exp 0 cost 740 replenish 0.04 - 0.13 max 2 initial 1 religions { islam }
-	unit Sudanese Tribesmen Mercs	exp 0 cost 440 replenish 0.04 - 0.13 max 2 initial 1
-
-pool West_Africa
-	regions Timbuktu_Province Arguin_Province
-	unit Sudanese Tribesmen Mercs	exp 0 cost 440 replenish 0.11 - 0.33 max 6 initial 1
-
-pool Nubia
-	regions Dongola_Province				
-	unit Sudanese Tribesmen Mercs	exp 0 cost 440 replenish 0.08 - 0.25 max 4 initial 1
-
-
-
-
-
-
-
-
-
-
 
 
