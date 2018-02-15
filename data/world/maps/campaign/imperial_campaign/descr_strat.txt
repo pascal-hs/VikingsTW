@@ -213,6 +213,10 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type port port
+	}
 }
 
 character	Philip, named character, male, leader, age 40, x 21, y 10 
@@ -292,6 +296,10 @@ settlement castle
 	building
 	{
 		type missiles bowyer
+	}
+	building
+	{
+		type port port
 	}
 }
 
@@ -388,6 +396,10 @@ settlement
 	{
 		type market corn_exchange
 	}
+	building
+	{
+		type port port
+	}
 }
 
 settlement castle
@@ -406,6 +418,10 @@ settlement castle
 	building
 	{
 		type equestrian knights_stables
+	}
+	building
+	{
+		type port port
 	}
 }
 
@@ -477,7 +493,7 @@ settlement castle
 	year_founded 0
 	population 2800
 	plan_set default_set
-	faction_creator spain
+	faction_creator russia
 	building
 	{
 		type core_castle_building castle
@@ -496,7 +512,7 @@ settlement castle
 	year_founded 0
 	population 2800
 	plan_set default_set
-	faction_creator spain
+	faction_creator russia
 	building
 	{
 		type core_castle_building castle
