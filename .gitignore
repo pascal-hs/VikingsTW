@@ -1,2 +1,5 @@
 
 data/world/maps/base/map.rwm
+*.rwm
+preferences/advice
+logs/vikings_tw.system.log.txt
